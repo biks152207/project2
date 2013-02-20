@@ -1,0 +1,15 @@
+doctype 5
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(type='text/javascript')
+        function change(){
+          
+          document.getElementById('click1').innerHTML='<form><p></p>Name:<input type="text" name="name"></p><p>Email:<input type="text" name="email"></p>Subject:<textarea name="subject"></textarea><p><input onclick="check2();" type="submit"></p></form>';
+          
+            
+        }
+        
+  body
+    block content
